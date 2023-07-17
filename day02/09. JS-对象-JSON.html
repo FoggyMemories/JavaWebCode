@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS-对象-JSON</title>
+</head>
+<body>
+<script>
+    /*//自定义对象
+    var user = {
+        name: "Tom",
+        age: 10,
+        gender: "male",
+        /!*eat: function () {
+            alert("用膳~");
+        }*!/
+
+        eat() {
+            alert("用膳~")
+        },
+    };
+
+    //调用对象
+    //获取对象的属性
+    alert(user.name);
+    //获取对象的方法
+    user.eat();*/
+
+    //定义JSON
+    var jsonStr = '{"name":"Tom","age":18,"addr":["北京","上海","西安"]}';
+
+    //alert(jsonStr.name);
+
+    //json字符串--js对象
+    var obj = JSON.parse(jsonStr);
+
+    alert(obj.name);
+
+	//js对象--json字符串
+    alert(JSON.stringify(obj));
+
+
+</script>
+</body>
+</html>
