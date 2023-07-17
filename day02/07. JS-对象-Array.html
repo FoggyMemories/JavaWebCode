@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS-对象-Array</title>
+</head>
+<body>
+<script>
+    //定义数组
+    /*var arr = new Array(1, 2, 3, 4);
+    var arr1 = [1, 2, 3, 4];
+
+
+    console.log(arr[0]);
+    console.log(arr[1]);
+
+    console.log(arr1[0]);
+    console.log(arr1[1]);*/
+
+    //特点:长度可变 类型可变
+    var arr = [1, 2, 3, 4];
+
+    arr[10] = 50;
+
+    /*arr[8] = 'A';
+    arr[9] = true;
+    arr[7] = "A";
+
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+
+    console.log(arr);*/
+
+    //console.log(arr.length);
+
+    /*for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+
+    console.log("---------------------------");
+
+    //forEach:遍历数组中有值的元素
+    arr.forEach(function (e) {
+        console.log(e);
+    });
+
+    console.log("----------------------------");
+
+    //ES6 箭头函数:  (...) => {...}		--简化函数定义
+
+    arr.forEach((e) => {
+        console.log(e);
+    });*/
+
+    //push:添加元素到数组末尾
+    arr.push(7, 8, 9);
+    console.log(arr);
+
+    //splice:删除元素
+    arr.splice(2, 2);//从几号索引位删除几个索引位
+
+    console.log(arr);
+
+
+</script>
+</body>
+</html>
