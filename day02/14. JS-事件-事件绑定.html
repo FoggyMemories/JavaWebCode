@@ -9,10 +9,11 @@
 <input type="button" id="btn2" value="事件绑定2">
 </body>
 <script>
+	//方式一:通过HTML标签中的事件属性进行绑定
     function on() {
         alert("按钮1被点击了...");
     }
-
+	//方式二:通过DOM元素属性绑定
     document.getElementById('btn2').onclick = function () {
         alert("按钮2被点击了...");
     }
