@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue-指令-v-on</title>
+	<script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+	<input type="button" value="点我一下" v-on:click="handle()">
+
+	<!--简写-->
+	<input type="button" value="点我一下" @click="handle()">
+</div>
+</body>
+<script>
+	//定义Vue对象
+	new Vue({
+        el: "#app",
+		data:{
+
+		},
+		methods:{
+            handle:function (){
+                alert("你点我了一下...");
+			}
+		}
+	})
+</script>
+</html>
