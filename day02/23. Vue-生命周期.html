@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue-生命周期</title>
+	<script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+
+</div>
+</body>
+<script>
+    //定义Vue对象
+    new Vue({
+        el: "#app",//Vue接管区域
+        data: {},
+        methods: {},
+        mounted() {
+            alert("Vue挂载完成,发送请求到服务端");
+        },
+    })
+</script>
+</html>
