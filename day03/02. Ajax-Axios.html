@@ -10,22 +10,32 @@
 <input type="button" value="删除数据POST" onclick="post()">
 <script>
     function get() {
-		//通过axios发送异步请求-get
-        axios({
+        //通过axios发送异步请求-get
+        /*axios({
             method: "get",
             url: "http://localhost:10010/emp/list",
         }).then(result => {
+            console.log(result.data);
+        });*/
+
+        //简化代码
+        axios.get("http://localhost:10010/emp/list").then(result => {
             console.log(result.data);
         });
     }
 
     function post() {
         //通过axios发送异步请求-post
-        axios({
+        /*axios({
             method: "post",
             url: "http://localhost:10010/emp/deleteById",
             data: "id=1"
         }).then(result => {
+            console.log(result.data);
+        });*/
+
+        //简化代码
+        axios.post("http://localhost:10010/emp/deleteById", "id=1").then(result => {
             console.log(result.data);
         });
     }
