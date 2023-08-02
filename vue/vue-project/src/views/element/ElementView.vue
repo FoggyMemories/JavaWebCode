@@ -32,6 +32,17 @@
           label="地址">
       </el-table-column>
     </el-table>
+
+    <br>
+
+    <!-- Pagination 分页 -->
+    <el-pagination
+        background
+        layout="sizes, prev, pager, next, jumper, total"
+        @size-change="handleSizeChange"
+        @current-change="handleCurrentChange"
+        :total="1000">
+    </el-pagination>
   </div>
 </template>
 
@@ -55,10 +66,18 @@ export default {
         date: '2016-05-03',
         name: '王小虎',
         address: '上海市普陀区金沙江路 1516 弄'
-      }]
-    }
+      },
+      ],
+    };
+  },
+  methods:{
+    handleSizeChange:function (val){
+      alert("每页记录数变化" + val);
+    },
+    handleCurrentChange: function (val) {
+      alert("页码发生变化" + val);
+    },
   }
-
 }
 </script>
 
