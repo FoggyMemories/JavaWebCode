@@ -24,6 +24,13 @@
             <groupId>com.itheima</groupId>
             <artifactId>maven-projectB</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <!--依赖排除-->
+            <exclusions>
+                <exclusion>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 </project>
