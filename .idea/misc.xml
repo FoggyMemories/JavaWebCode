@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/mevenCode/meven-project01/pom.xml" />
         <option value="$PROJECT_DIR$/mevenCode/maven-project01/pom.xml" />
         <option value="$PROJECT_DIR$/mevenCode/maven-project02/pom.xml" />
+        <option value="$PROJECT_DIR$/mevenCode/maven-projectA/pom.xml" />
+        <option value="$PROJECT_DIR$/mevenCode/maven-projectB/pom.xml" />
+        <option value="$PROJECT_DIR$/mevenCode/maven-projectC/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
