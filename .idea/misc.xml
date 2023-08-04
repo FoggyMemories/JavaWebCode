@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/mevenCode/maven-projectC/pom.xml" />
         <option value="$PROJECT_DIR$/springbootCode/springboot-web-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/mevenCode/springboot-web-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/mevenCode/http-server-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

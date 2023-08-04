@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="maven-project01" />
         <module name="maven-project02" />
+        <module name="http-server-demo" />
+        <module name="springboot-web-quickstart" />
         <module name="maven-projectA" />
         <module name="maven-projectB" />
         <module name="maven-projectC" />
-        <module name="springboot-web-quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
