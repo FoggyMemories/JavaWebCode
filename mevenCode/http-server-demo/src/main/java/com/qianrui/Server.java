@@ -1,4 +1,4 @@
-package com.itheima;
+package com.qianrui;
 
 import java.io.*;
 import java.net.ServerSocket;

@@ -1,4 +1,4 @@
-package com.itheima.test;
+package com.qianrui.test;
 
 import org.junit.Test;
 import org.slf4j.Logger;

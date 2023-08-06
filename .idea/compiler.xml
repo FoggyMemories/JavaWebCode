@@ -10,6 +10,7 @@
         <module name="maven-project02" />
         <module name="http-server-demo" />
         <module name="springboot-web-quickstart2" />
+        <module name="springboot-web-req-resp" />
         <module name="springboot-web-quickstart" />
         <module name="maven-projectA" />
         <module name="maven-projectB" />
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-web-quickstart" options="-parameters" />
       <module name="springboot-web-quickstart2" options="-parameters" />
+      <module name="springboot-web-req-resp" options="-parameters" />
     </option>
   </component>
 </project>
