@@ -1,8 +1,0 @@
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET / HTTP/1.1" 200 618 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET /css/chunk-vendors.ab49d789.css HTTP/1.1" 200 210860 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET /js/chunk-vendors.fac74352.js HTTP/1.1" 200 944386 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET /js/app.da850802.js HTTP/1.1" 200 4080 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET /js/482.d5dabd3b.js HTTP/1.1" 200 35761 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET /favicon.ico HTTP/1.1" 200 4286 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:41 +0800] "GET /fonts/element-icons.ff18efd1.woff HTTP/1.1" 200 28200 "http://127.0.0.1/css/chunk-vendors.ab49d789.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
-127.0.0.1 - - [03/Aug/2023:15:21:54 +0800] "GET /js/910.c99612df.js HTTP/1.1" 200 1795 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
