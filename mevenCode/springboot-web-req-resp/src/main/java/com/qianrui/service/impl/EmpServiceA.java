@@ -1,7 +1,6 @@
 package com.qianrui.service.impl;
 
 import com.qianrui.dao.EmpDao;
-import com.qianrui.dao.impl.EmpDaoA;
 import com.qianrui.pojo.Emp;
 import com.qianrui.service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
