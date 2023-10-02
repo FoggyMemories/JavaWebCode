@@ -6,16 +6,22 @@ import com.qianrui.service.EmpService;
 import com.qianrui.service.impl.EmpServiceA;
 import com.qianrui.utils.XmlParserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 //如需切换bean，就将不需要交付的bean注释
 //@Component  //将当前类交给IOC容器管理，成为IOC容器中的bean
 public class EmpController {
+	/*@Qualifier("empServiceA")
 	@Autowired  //运行时，IOC容器会提供该类的bean对象，并复制给该变量 - 依赖注入
+	private EmpService empService;*/
+
+	@Resource(name = "empServiceB")
 	private EmpService empService;
 
 	@RequestMapping("/listEmp")
