@@ -2,6 +2,8 @@ package com.qianrui.controller;
 
 import com.qianrui.pojo.Emp;
 import com.qianrui.pojo.Result;
+import com.qianrui.service.EmpService;
+import com.qianrui.service.impl.EmpServiceA;
 import com.qianrui.utils.XmlParserUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,9 +12,18 @@ import java.util.List;
 
 @RestController
 public class EmpController {
+	private EmpService empService = new EmpServiceA();
 
-    @RequestMapping("/listEmp")
-    public Result list(){
+	@RequestMapping("/listEmp")
+	public Result list() {
+		//1.调用service，获取数据
+		List<Emp> empList = empService.listEmp();
+
+		//3. 响应数据
+		return Result.success(empList);
+	}
+
+    /*
         //1. 加载并解析emp.xml
         String file = this.getClass().getClassLoader().getResource("emp.xml").getFile();
         System.out.println(file);
@@ -37,10 +48,6 @@ public class EmpController {
             }else if("3".equals(job)){
                 emp.setJob("就业指导");
             }
-        });
-
-        //3. 响应数据
-        return Result.success(empList);
-    }
+        });*/
 
 }
