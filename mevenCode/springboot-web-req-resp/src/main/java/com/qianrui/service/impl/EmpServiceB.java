@@ -5,12 +5,10 @@ import com.qianrui.dao.impl.EmpDaoA;
 import com.qianrui.pojo.Emp;
 import com.qianrui.service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component  //将当前类交给IOC容器管理，成为IOC容器中的bean
-public class EmpServiceA implements EmpService {
+public class EmpServiceB implements EmpService {
 
 	@Autowired  //运行时，IOC容器会提供该类的bean对象，并复制给该变量 - 依赖注入
 	private EmpDao empDao;
@@ -25,9 +23,9 @@ public class EmpServiceA implements EmpService {
 			//处理 gender 1: 男, 2: 女
 			String gender = emp.getGender();
 			if ("1".equals(gender)) {
-				emp.setGender("男");
+				emp.setGender("男士");
 			} else if ("2".equals(gender)) {
-				emp.setGender("女");
+				emp.setGender("女士");
 			}
 
 			//处理job - 1: 讲师, 2: 班主任 , 3: 就业指导
