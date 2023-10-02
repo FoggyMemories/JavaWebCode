@@ -21,6 +21,16 @@ public class EmpController {
 	@Autowired  //运行时，IOC容器会提供该类的bean对象，并复制给该变量 - 依赖注入
 	private EmpService empService;*/
 
+	/*
+	 * 依赖注入的注解
+	 * @Autowired：默认按照类型自动装配。
+	 * 如果同类型的bean存在多个：
+	 *       @Primary
+	 *       @Autowired + @Qualifier("bean的名称")
+	 *       @Resource(name = "bean的名称")
+	 *
+	 * */
+
 	@Resource(name = "empServiceB")
 	private EmpService empService;
 
